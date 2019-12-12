@@ -1,0 +1,3 @@
+/Users/James/Desktop/SpaceRPG/Source/SpaceRPG/SpaceRPG.Build.cs
+/Users/James/Desktop/SpaceRPG/Source/SpaceRPG.Target.cs
+/Users/James/Desktop/SpaceRPG/Source/SpaceRPGEditor.Target.cs
