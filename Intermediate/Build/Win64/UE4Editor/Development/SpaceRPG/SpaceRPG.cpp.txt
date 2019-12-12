@@ -1,0 +1,2 @@
+C:\Users\SuperJoeMan\Documents\SpaceRPG\Intermediate\Build\Win64\UE4Editor\Development\SpaceRPG\Definitions.SpaceRPG.h
+c:\users\superjoeman\documents\spacerpg\source\spacerpg\SpaceRPG.h
