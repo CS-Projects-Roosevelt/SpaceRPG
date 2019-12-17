@@ -7,57 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		91F6DDE87770C5A225363F8F /* DefaultEditor.ini in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A6E3CBDFC1C4D72A426E5 /* DefaultEditor.ini */; };
-		1CA02256E208777020EF3683 /* DefaultEditorPerProjectUserSettings.ini in Sources */ = {isa = PBXBuildFile; fileRef = 5873D72E80F5FC38B15BAE4B /* DefaultEditorPerProjectUserSettings.ini */; };
-		2C4E399CAD3837ECD0F8CBD6 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 4E6FC01DBECF6EAFE3EBE34A /* DefaultEngine.ini */; };
-		24EDCC7DA8ED33C0F2D72993 /* DefaultGame.ini in Sources */ = {isa = PBXBuildFile; fileRef = CEDBC2E8B849B360A801E011 /* DefaultGame.ini */; };
-		34DF79E2EDFE67416BEF77BF /* DefaultInput.ini in Sources */ = {isa = PBXBuildFile; fileRef = 6BB943E2C40AE476452D4EE3 /* DefaultInput.ini */; };
+		1CA02256E208777020EF3683 /* DefaultEditor.ini in Sources */ = {isa = PBXBuildFile; fileRef = 5873D72E80F5FC38B15BAE4B /* DefaultEditor.ini */; };
+		2C4E399CAD3837ECD0F8CBD6 /* DefaultEditorPerProjectUserSettings.ini in Sources */ = {isa = PBXBuildFile; fileRef = 4E6FC01DBECF6EAFE3EBE34A /* DefaultEditorPerProjectUserSettings.ini */; };
+		24EDCC7DA8ED33C0F2D72993 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = CEDBC2E8B849B360A801E011 /* DefaultEngine.ini */; };
+		34DF79E2EDFE67416BEF77BF /* DefaultGame.ini in Sources */ = {isa = PBXBuildFile; fileRef = 6BB943E2C40AE476452D4EE3 /* DefaultGame.ini */; };
+		0C85F79A3782A2230DBB49C9 /* DefaultInput.ini in Sources */ = {isa = PBXBuildFile; fileRef = 7451D3F36FE827DF64027CFE /* DefaultInput.ini */; };
+		91F6DDE87770C5A225363F8F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A6E3CBDFC1C4D72A426E5 /* README.md */; };
 		EC5E64005393B30D4A402975 /* SpaceRPG.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = CF746C0FF4BEC24D1E04EB4B /* SpaceRPG.Target.cs */; };
-		F8782B3114FD20793D0F4243 /* SpaceRPG.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = BBAF02DD798F9B188293967C /* SpaceRPG.Build.cs */; };
-		1C661E80FC655E3B42BC9BA4 /* SpaceRPG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5153ABA620650A1FE58E4945 /* SpaceRPG.cpp */; };
-		16FADA8A5171C165E2AF15AD /* SpaceRPG.h in Sources */ = {isa = PBXBuildFile; fileRef = DFA07CD8B10601FE135E8C25 /* SpaceRPG.h */; };
-		E3F4F71C8976978D1CD96902 /* SpaceRPGCharacter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BD3EAD0FB36C1A13EFDC780 /* SpaceRPGCharacter.cpp */; };
-		E9316EDE8D4B31B86DB4A65C /* SpaceRPGCharacter.h in Sources */ = {isa = PBXBuildFile; fileRef = 79A5DC6C17889005367A4CDD /* SpaceRPGCharacter.h */; };
-		1C3003DD9CEAE7E52D773257 /* SpaceRPGGameMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08B800D1A7B194D62C8D5655 /* SpaceRPGGameMode.cpp */; };
-		595589B56DC1496FE490C25C /* SpaceRPGGameMode.h in Sources */ = {isa = PBXBuildFile; fileRef = 47541B82CDC12F027285645F /* SpaceRPGGameMode.h */; };
+		1C661E80FC655E3B42BC9BA4 /* SpaceEnemyOne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5153ABA620650A1FE58E4945 /* SpaceEnemyOne.cpp */; };
+		16FADA8A5171C165E2AF15AD /* SpaceEnemyOne.h in Sources */ = {isa = PBXBuildFile; fileRef = DFA07CD8B10601FE135E8C25 /* SpaceEnemyOne.h */; };
+		E3F4F71C8976978D1CD96902 /* SpaceRPG.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 8BD3EAD0FB36C1A13EFDC780 /* SpaceRPG.Build.cs */; };
+		E9316EDE8D4B31B86DB4A65C /* SpaceRPG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79A5DC6C17889005367A4CDD /* SpaceRPG.cpp */; };
+		1C3003DD9CEAE7E52D773257 /* SpaceRPG.h in Sources */ = {isa = PBXBuildFile; fileRef = 08B800D1A7B194D62C8D5655 /* SpaceRPG.h */; };
+		595589B56DC1496FE490C25C /* SpaceRPGCharacter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47541B82CDC12F027285645F /* SpaceRPGCharacter.cpp */; };
+		88BF5D85E576B18ED9AD8347 /* SpaceRPGCharacter.h in Sources */ = {isa = PBXBuildFile; fileRef = 6131786C2DC37277F5A38953 /* SpaceRPGCharacter.h */; };
+		9611096B5E54E3D4F02A2DAD /* SpaceRPGGameMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63C4896EDF33839AD0D3219B /* SpaceRPGGameMode.cpp */; };
+		48C2D5AF12EC69E5350AEED4 /* SpaceRPGGameMode.h in Sources */ = {isa = PBXBuildFile; fileRef = 6C453085C9AE573604CA0968 /* SpaceRPGGameMode.h */; };
 		B598FEA846B56A21864682FE /* SpaceRPGEditor.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 10E4841AB4578BB4EF66F8B7 /* SpaceRPGEditor.Target.cs */; };
 		1A0C466F5D75E4D8AD6765D5 /* SpaceRPG.uproject in Sources */ = {isa = PBXBuildFile; fileRef = F519DBC82B7C343B37F88500 /* SpaceRPG.uproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9F1A6E3CBDFC1C4D72A426E5 /* DefaultEditor.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEditor.ini"; path = "../../Config/DefaultEditor.ini"; sourceTree = SOURCE_ROOT; };
-		5873D72E80F5FC38B15BAE4B /* DefaultEditorPerProjectUserSettings.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEditorPerProjectUserSettings.ini"; path = "../../Config/DefaultEditorPerProjectUserSettings.ini"; sourceTree = SOURCE_ROOT; };
-		4E6FC01DBECF6EAFE3EBE34A /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
-		CEDBC2E8B849B360A801E011 /* DefaultGame.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultGame.ini"; path = "../../Config/DefaultGame.ini"; sourceTree = SOURCE_ROOT; };
-		6BB943E2C40AE476452D4EE3 /* DefaultInput.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultInput.ini"; path = "../../Config/DefaultInput.ini"; sourceTree = SOURCE_ROOT; };
+		5873D72E80F5FC38B15BAE4B /* DefaultEditor.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEditor.ini"; path = "../../Config/DefaultEditor.ini"; sourceTree = SOURCE_ROOT; };
+		4E6FC01DBECF6EAFE3EBE34A /* DefaultEditorPerProjectUserSettings.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEditorPerProjectUserSettings.ini"; path = "../../Config/DefaultEditorPerProjectUserSettings.ini"; sourceTree = SOURCE_ROOT; };
+		CEDBC2E8B849B360A801E011 /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		6BB943E2C40AE476452D4EE3 /* DefaultGame.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultGame.ini"; path = "../../Config/DefaultGame.ini"; sourceTree = SOURCE_ROOT; };
+		7451D3F36FE827DF64027CFE /* DefaultInput.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultInput.ini"; path = "../../Config/DefaultInput.ini"; sourceTree = SOURCE_ROOT; };
+		9F1A6E3CBDFC1C4D72A426E5 /* README.md */ = {isa = PBXFileReference; explicitFileType = file.text; name = "README.md"; path = "../../README.md"; sourceTree = SOURCE_ROOT; };
 		CF746C0FF4BEC24D1E04EB4B /* SpaceRPG.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "SpaceRPG.Target.cs"; path = "../../Source/SpaceRPG.Target.cs"; sourceTree = SOURCE_ROOT; };
-		BBAF02DD798F9B188293967C /* SpaceRPG.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "SpaceRPG.Build.cs"; path = "../../Source/SpaceRPG/SpaceRPG.Build.cs"; sourceTree = SOURCE_ROOT; };
-		5153ABA620650A1FE58E4945 /* SpaceRPG.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SpaceRPG.cpp"; path = "../../Source/SpaceRPG/SpaceRPG.cpp"; sourceTree = SOURCE_ROOT; };
-		DFA07CD8B10601FE135E8C25 /* SpaceRPG.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SpaceRPG.h"; path = "../../Source/SpaceRPG/SpaceRPG.h"; sourceTree = SOURCE_ROOT; };
-		8BD3EAD0FB36C1A13EFDC780 /* SpaceRPGCharacter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SpaceRPGCharacter.cpp"; path = "../../Source/SpaceRPG/SpaceRPGCharacter.cpp"; sourceTree = SOURCE_ROOT; };
-		79A5DC6C17889005367A4CDD /* SpaceRPGCharacter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SpaceRPGCharacter.h"; path = "../../Source/SpaceRPG/SpaceRPGCharacter.h"; sourceTree = SOURCE_ROOT; };
-		08B800D1A7B194D62C8D5655 /* SpaceRPGGameMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SpaceRPGGameMode.cpp"; path = "../../Source/SpaceRPG/SpaceRPGGameMode.cpp"; sourceTree = SOURCE_ROOT; };
-		47541B82CDC12F027285645F /* SpaceRPGGameMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SpaceRPGGameMode.h"; path = "../../Source/SpaceRPG/SpaceRPGGameMode.h"; sourceTree = SOURCE_ROOT; };
+		5153ABA620650A1FE58E4945 /* SpaceEnemyOne.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SpaceEnemyOne.cpp"; path = "../../Source/SpaceRPG/SpaceEnemyOne.cpp"; sourceTree = SOURCE_ROOT; };
+		DFA07CD8B10601FE135E8C25 /* SpaceEnemyOne.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SpaceEnemyOne.h"; path = "../../Source/SpaceRPG/SpaceEnemyOne.h"; sourceTree = SOURCE_ROOT; };
+		8BD3EAD0FB36C1A13EFDC780 /* SpaceRPG.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "SpaceRPG.Build.cs"; path = "../../Source/SpaceRPG/SpaceRPG.Build.cs"; sourceTree = SOURCE_ROOT; };
+		79A5DC6C17889005367A4CDD /* SpaceRPG.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SpaceRPG.cpp"; path = "../../Source/SpaceRPG/SpaceRPG.cpp"; sourceTree = SOURCE_ROOT; };
+		08B800D1A7B194D62C8D5655 /* SpaceRPG.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SpaceRPG.h"; path = "../../Source/SpaceRPG/SpaceRPG.h"; sourceTree = SOURCE_ROOT; };
+		47541B82CDC12F027285645F /* SpaceRPGCharacter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SpaceRPGCharacter.cpp"; path = "../../Source/SpaceRPG/SpaceRPGCharacter.cpp"; sourceTree = SOURCE_ROOT; };
+		6131786C2DC37277F5A38953 /* SpaceRPGCharacter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SpaceRPGCharacter.h"; path = "../../Source/SpaceRPG/SpaceRPGCharacter.h"; sourceTree = SOURCE_ROOT; };
+		63C4896EDF33839AD0D3219B /* SpaceRPGGameMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SpaceRPGGameMode.cpp"; path = "../../Source/SpaceRPG/SpaceRPGGameMode.cpp"; sourceTree = SOURCE_ROOT; };
+		6C453085C9AE573604CA0968 /* SpaceRPGGameMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SpaceRPGGameMode.h"; path = "../../Source/SpaceRPG/SpaceRPGGameMode.h"; sourceTree = SOURCE_ROOT; };
 		10E4841AB4578BB4EF66F8B7 /* SpaceRPGEditor.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "SpaceRPGEditor.Target.cs"; path = "../../Source/SpaceRPGEditor.Target.cs"; sourceTree = SOURCE_ROOT; };
 		F519DBC82B7C343B37F88500 /* SpaceRPG.uproject */ = {isa = PBXFileReference; explicitFileType = file.text; name = "SpaceRPG.uproject"; path = "../../SpaceRPG.uproject"; sourceTree = SOURCE_ROOT; };
-		48C2D5AF12EC69E5350AEED4 /* SpaceRPG */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = SpaceRPG; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5375BB52B0938400FEBE21 /* SpaceRPG */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = SpaceRPG; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		75DB2B09D8F10E56E8A42826 = {
+		B80A984C295A173522C21D8E = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C661E80FC655E3B42BC9BA4 /* SpaceRPG.cpp in Sources */,
-				E3F4F71C8976978D1CD96902 /* SpaceRPGCharacter.cpp in Sources */,
-				1C3003DD9CEAE7E52D773257 /* SpaceRPGGameMode.cpp in Sources */,
+				1C661E80FC655E3B42BC9BA4 /* SpaceEnemyOne.cpp in Sources */,
+				E9316EDE8D4B31B86DB4A65C /* SpaceRPG.cpp in Sources */,
+				595589B56DC1496FE490C25C /* SpaceRPGCharacter.cpp in Sources */,
+				9611096B5E54E3D4F02A2DAD /* SpaceRPGGameMode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-	E4E0267EB2F2D73BA45B3920 /* Embed App Extensions */ = {
+	94237F339A74596DAE498E8F /* Embed App Extensions */ = {
 		isa = PBXCopyFilesBuildPhase;
 		buildActionMask = 2147483647;
 		dstPath = "";
@@ -69,51 +76,52 @@
 	};
 /* End PBXCopyFilesBuildPhase section */
 /* Begin PBXContainerItemProxy section */
-		63C4896EDF33839AD0D3219B /* PBXContainerItemProxy */ = {
+		54A7C546872BE4FD22940595 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 54A7C546872BE4FD22940595 /* Project object */;
+			containerPortal = DFE8B3FB875028E32C1E8EFB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6C453085C9AE573604CA0968;
+			remoteGlobalIDString = 1E604704D7A4E213BEB2AE19;
 			remoteInfo = "SpaceRPG_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		9611096B5E54E3D4F02A2DAD /* PBXTargetDependency */ = {
+		03FED0217CEB977EB96C750F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6C453085C9AE573604CA0968 /* SpaceRPG_Build */;
-			targetProxy = 63C4896EDF33839AD0D3219B /* PBXContainerItemProxy */;
+			target = 1E604704D7A4E213BEB2AE19 /* SpaceRPG_Build */;
+			targetProxy = 54A7C546872BE4FD22940595 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		1E604704D7A4E213BEB2AE19 = {
+		DEF8BC0563F98319A20A2AF0 = {
 			isa = PBXGroup;
 			children = (
-				466E24CA3379E6A469F90E4D /* Config */,
-				5A510C3D67E5F0644E78624A /* Source */,
+				13823C9BA70DFCD6DA2D4292 /* Config */,
+				3BF83D9298F81B40C18AB2C0 /* Source */,
+				9F1A6E3CBDFC1C4D72A426E5 /* README.md */,
 				F519DBC82B7C343B37F88500 /* SpaceRPG.uproject */,
-				8231D1AAD004766EF83A3428 /* Products */,
+				3E13CF977B45FAC5512A05D9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		466E24CA3379E6A469F90E4D = {
+		13823C9BA70DFCD6DA2D4292 = {
 			isa = PBXGroup;
 			children = (
-				9F1A6E3CBDFC1C4D72A426E5 /* DefaultEditor.ini */,
-				5873D72E80F5FC38B15BAE4B /* DefaultEditorPerProjectUserSettings.ini */,
-				4E6FC01DBECF6EAFE3EBE34A /* DefaultEngine.ini */,
-				CEDBC2E8B849B360A801E011 /* DefaultGame.ini */,
-				6BB943E2C40AE476452D4EE3 /* DefaultInput.ini */,
+				5873D72E80F5FC38B15BAE4B /* DefaultEditor.ini */,
+				4E6FC01DBECF6EAFE3EBE34A /* DefaultEditorPerProjectUserSettings.ini */,
+				CEDBC2E8B849B360A801E011 /* DefaultEngine.ini */,
+				6BB943E2C40AE476452D4EE3 /* DefaultGame.ini */,
+				7451D3F36FE827DF64027CFE /* DefaultInput.ini */,
 			);
 			name = "Config";
 			path = "/Users/James/Desktop/SpaceRPG/Config";
 			sourceTree = "<absolute>";
 		};
-		5A510C3D67E5F0644E78624A = {
+		3BF83D9298F81B40C18AB2C0 = {
 			isa = PBXGroup;
 			children = (
-				3FEBBD7FDA5FA1ABF4C7C527 /* SpaceRPG */,
+				E8C7FCEB107E0257250A95EB /* SpaceRPG */,
 				CF746C0FF4BEC24D1E04EB4B /* SpaceRPG.Target.cs */,
 				10E4841AB4578BB4EF66F8B7 /* SpaceRPGEditor.Target.cs */,
 			);
@@ -121,25 +129,27 @@
 			path = "/Users/James/Desktop/SpaceRPG/Source";
 			sourceTree = "<absolute>";
 		};
-		3FEBBD7FDA5FA1ABF4C7C527 = {
+		E8C7FCEB107E0257250A95EB = {
 			isa = PBXGroup;
 			children = (
-				BBAF02DD798F9B188293967C /* SpaceRPG.Build.cs */,
-				5153ABA620650A1FE58E4945 /* SpaceRPG.cpp */,
-				DFA07CD8B10601FE135E8C25 /* SpaceRPG.h */,
-				8BD3EAD0FB36C1A13EFDC780 /* SpaceRPGCharacter.cpp */,
-				79A5DC6C17889005367A4CDD /* SpaceRPGCharacter.h */,
-				08B800D1A7B194D62C8D5655 /* SpaceRPGGameMode.cpp */,
-				47541B82CDC12F027285645F /* SpaceRPGGameMode.h */,
+				5153ABA620650A1FE58E4945 /* SpaceEnemyOne.cpp */,
+				DFA07CD8B10601FE135E8C25 /* SpaceEnemyOne.h */,
+				8BD3EAD0FB36C1A13EFDC780 /* SpaceRPG.Build.cs */,
+				79A5DC6C17889005367A4CDD /* SpaceRPG.cpp */,
+				08B800D1A7B194D62C8D5655 /* SpaceRPG.h */,
+				47541B82CDC12F027285645F /* SpaceRPGCharacter.cpp */,
+				6131786C2DC37277F5A38953 /* SpaceRPGCharacter.h */,
+				63C4896EDF33839AD0D3219B /* SpaceRPGGameMode.cpp */,
+				6C453085C9AE573604CA0968 /* SpaceRPGGameMode.h */,
 			);
 			name = "SpaceRPG";
 			path = "/Users/James/Desktop/SpaceRPG/Source/SpaceRPG";
 			sourceTree = "<absolute>";
 		};
-		8231D1AAD004766EF83A3428 /* Products */ = {
+		3E13CF977B45FAC5512A05D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				48C2D5AF12EC69E5350AEED4 /* SpaceRPG */,
+				ED5375BB52B0938400FEBE21 /* SpaceRPG */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,10 +157,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		6C453085C9AE573604CA0968 /* SpaceRPG_Build */ = {
+		1E604704D7A4E213BEB2AE19 /* SpaceRPG_Build */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG) \"/Users/James/Desktop/SpaceRPG/SpaceRPG.uproject\" -buildscw";
-			buildConfigurationList = 390397C21FEE82C3EF6E229B /* Build configuration list for PBXLegacyTarget "SpaceRPG_Build" */;
+			buildConfigurationList = 8231D1AAD004766EF83A3428 /* Build configuration list for PBXLegacyTarget "SpaceRPG_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Users/Shared/UnrealEngine/UE_4.23/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
@@ -164,30 +174,30 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		88BF5D85E576B18ED9AD8347 /* SpaceRPG */ = {
+		390397C21FEE82C3EF6E229B /* SpaceRPG */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6131786C2DC37277F5A38953 /* Build configuration list for PBXNativeTarget "SpaceRPG" */;
+			buildConfigurationList = 7F34C103C1487858D5B50299 /* Build configuration list for PBXNativeTarget "SpaceRPG" */;
 			buildPhases = (
-				E4E0267EB2F2D73BA45B3920 /* Embed App Extensions */, 
-				DFE8B3FB875028E32C1E8EFB /* Shell Script */, 
+				94237F339A74596DAE498E8F /* Embed App Extensions */, 
+				879963C4AFFF9FB3F2E24C59 /* Shell Script */, 
 			);
 			dependencies = (
-				9611096B5E54E3D4F02A2DAD /* PBXTargetDependency */,
+				03FED0217CEB977EB96C750F /* PBXTargetDependency */,
 			);
 			name = "SpaceRPG";
 			passBuildSettingsInEnvironment = 1;
 			productName = "SpaceRPG";
-			productReference = "48C2D5AF12EC69E5350AEED4";
+			productReference = "ED5375BB52B0938400FEBE21";
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		7F34C103C1487858D5B50299 /* SpaceRPG_Index */ = {
+		75DB2B09D8F10E56E8A42826 /* SpaceRPG_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03FED0217CEB977EB96C750F /* Build configuration list for PBXNativeTarget "SpaceRPG_Index" */;
+			buildConfigurationList = E4E0267EB2F2D73BA45B3920 /* Build configuration list for PBXNativeTarget "SpaceRPG_Index" */;
 			buildPhases = (
-				75DB2B09D8F10E56E8A42826 /* Sources */,
+				B80A984C295A173522C21D8E /* Sources */,
 			);
 			dependencies = (
 			);
@@ -199,38 +209,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		54A7C546872BE4FD22940595 /* Project object */ = {
+		DFE8B3FB875028E32C1E8EFB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 2000;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					88BF5D85E576B18ED9AD8347 = {
+					390397C21FEE82C3EF6E229B = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = ED5375BB52B0938400FEBE21 /* Build configuration list for PBXProject "SpaceRPG" */;
+			buildConfigurationList = 78D83ACCA35731DE09AAC5F0 /* Build configuration list for PBXProject "SpaceRPG" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = 1E604704D7A4E213BEB2AE19;
-			productRefGroup = 8231D1AAD004766EF83A3428;
+			mainGroup = DEF8BC0563F98319A20A2AF0;
+			productRefGroup = 3E13CF977B45FAC5512A05D9;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			88BF5D85E576B18ED9AD8347 /* SpaceRPG */,
-			6C453085C9AE573604CA0968 /* SpaceRPG_Build */,
-			7F34C103C1487858D5B50299 /* SpaceRPG_Index */,
+			390397C21FEE82C3EF6E229B /* SpaceRPG */,
+			1E604704D7A4E213BEB2AE19 /* SpaceRPG_Build */,
+			75DB2B09D8F10E56E8A42826 /* SpaceRPG_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		78D83ACCA35731DE09AAC5F0 /* "DebugGame" */ = {
+		6036F047F3F5CD7CF5410357 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -280,17 +290,6 @@
 					"IMPLEMENT_SIGNING_KEY_REGISTRATION()=",
 					"DEPRECATED_FORGAME=DEPRECATED",
 					"UE_DEPRECATED_FORGAME=UE_DEPRECATED",
-					"SPACERPG_VTABLE=DLLEXPORT_VTABLE",
-					"SPACERPG_API=",
-					"UE_ENABLE_ICU=1",
-					"WITH_DIRECTXMATH=0",
-					"WITH_MALLOC_STOMP=1",
-					"CORE_VTABLE=DLLIMPORT_VTABLE",
-					"CORE_API=",
-					"TRACELOG_VTABLE=DLLIMPORT_VTABLE",
-					"TRACELOG_API=",
-					"COREUOBJECT_VTABLE=DLLIMPORT_VTABLE",
-					"COREUOBJECT_API=",
 					"INCLUDE_CHAOS=0",
 					"WITH_PHYSX=1",
 					"WITH_CHAOS=0",
@@ -307,6 +306,15 @@
 					"GPUPARTICLE_LOCAL_VF_ONLY=0",
 					"ENGINE_VTABLE=DLLIMPORT_VTABLE",
 					"ENGINE_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_DIRECTXMATH=0",
+					"WITH_MALLOC_STOMP=1",
+					"CORE_VTABLE=DLLIMPORT_VTABLE",
+					"CORE_API=",
+					"TRACELOG_VTABLE=DLLIMPORT_VTABLE",
+					"TRACELOG_API=",
+					"COREUOBJECT_VTABLE=DLLIMPORT_VTABLE",
+					"COREUOBJECT_API=",
 					"APPLICATIONCORE_VTABLE=DLLIMPORT_VTABLE",
 					"APPLICATIONCORE_API=",
 					"RHI_VTABLE=DLLIMPORT_VTABLE",
@@ -521,6 +529,8 @@
 					"KISMET_API=",
 					"CLOTHINGSYSTEMRUNTIMEINTERFACE_VTABLE=DLLIMPORT_VTABLE",
 					"CLOTHINGSYSTEMRUNTIMEINTERFACE_API=",
+					"SPACERPG_VTABLE=DLLEXPORT_VTABLE",
+					"SPACERPG_API=",
 					"PAPER2D_VTABLE=DLLIMPORT_VTABLE",
 					"PAPER2D_API=",
 					"__INTELLISENSE__",
@@ -553,11 +563,34 @@
 				);
 				USER_HEADER_SEARCH_PATHS = (
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source",
-					"../Build/Mac/UE4Editor/Inc/SpaceRPG",
-					"../../Source",
-					"../../Source/SpaceRPG",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Core",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Classes",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/AI",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/AI/Navigation",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Analytics",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Animation",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Audio",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Curves",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/EdGraph",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Internationalization",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Net",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Net/Util",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/PacketHandlers",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Performance",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Physics",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Physics/Experimental",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Physics/ImmediatePhysics",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/ProfilingDebugging",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Rendering",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Slate",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Subsystems",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Tests",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/VT",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/VisualLogger",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Core",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Core/Public",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Core",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Core/Public/Algo",
@@ -605,32 +638,6 @@
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/CoreUObject/Public/Serialization/Formatters",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/CoreUObject/Public/Templates",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/CoreUObject/Public/UObject",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Classes",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/AI",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/AI/Navigation",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Analytics",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Animation",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Audio",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Curves",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/EdGraph",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Internationalization",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Net",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Net/Util",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/PacketHandlers",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Performance",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Physics",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Physics/Experimental",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Physics/ImmediatePhysics",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/ProfilingDebugging",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Rendering",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Slate",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Subsystems",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Tests",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/VT",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/VisualLogger",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ApplicationCore",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/ApplicationCore/Public",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/ApplicationCore",
@@ -1062,6 +1069,9 @@
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ClothingSystemRuntimeInterface",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/ClothingSystemRuntimeInterface",
+					"../Build/Mac/UE4Editor/Inc/SpaceRPG",
+					"../../Source",
+					"../../Source/SpaceRPG",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Plugins/2D/Paper2D/Intermediate/Build/Mac/UE4Editor/Inc/Paper2D",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Plugins/2D/Paper2D/Source",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Plugins/2D/Paper2D/Source/Paper2D/Classes",
@@ -1076,7 +1086,7 @@
 			};
 			name = "DebugGame";
 		};
-		94237F339A74596DAE498E8F /* "DebugGame Editor" */ = {
+		D4C3E15AB7DEDC58715F509F /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1126,17 +1136,6 @@
 					"IMPLEMENT_SIGNING_KEY_REGISTRATION()=",
 					"DEPRECATED_FORGAME=DEPRECATED",
 					"UE_DEPRECATED_FORGAME=UE_DEPRECATED",
-					"SPACERPG_VTABLE=DLLEXPORT_VTABLE",
-					"SPACERPG_API=",
-					"UE_ENABLE_ICU=1",
-					"WITH_DIRECTXMATH=0",
-					"WITH_MALLOC_STOMP=1",
-					"CORE_VTABLE=DLLIMPORT_VTABLE",
-					"CORE_API=",
-					"TRACELOG_VTABLE=DLLIMPORT_VTABLE",
-					"TRACELOG_API=",
-					"COREUOBJECT_VTABLE=DLLIMPORT_VTABLE",
-					"COREUOBJECT_API=",
 					"INCLUDE_CHAOS=0",
 					"WITH_PHYSX=1",
 					"WITH_CHAOS=0",
@@ -1153,6 +1152,15 @@
 					"GPUPARTICLE_LOCAL_VF_ONLY=0",
 					"ENGINE_VTABLE=DLLIMPORT_VTABLE",
 					"ENGINE_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_DIRECTXMATH=0",
+					"WITH_MALLOC_STOMP=1",
+					"CORE_VTABLE=DLLIMPORT_VTABLE",
+					"CORE_API=",
+					"TRACELOG_VTABLE=DLLIMPORT_VTABLE",
+					"TRACELOG_API=",
+					"COREUOBJECT_VTABLE=DLLIMPORT_VTABLE",
+					"COREUOBJECT_API=",
 					"APPLICATIONCORE_VTABLE=DLLIMPORT_VTABLE",
 					"APPLICATIONCORE_API=",
 					"RHI_VTABLE=DLLIMPORT_VTABLE",
@@ -1367,6 +1375,8 @@
 					"KISMET_API=",
 					"CLOTHINGSYSTEMRUNTIMEINTERFACE_VTABLE=DLLIMPORT_VTABLE",
 					"CLOTHINGSYSTEMRUNTIMEINTERFACE_API=",
+					"SPACERPG_VTABLE=DLLEXPORT_VTABLE",
+					"SPACERPG_API=",
 					"PAPER2D_VTABLE=DLLIMPORT_VTABLE",
 					"PAPER2D_API=",
 					"__INTELLISENSE__",
@@ -1399,11 +1409,34 @@
 				);
 				USER_HEADER_SEARCH_PATHS = (
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source",
-					"../Build/Mac/UE4Editor/Inc/SpaceRPG",
-					"../../Source",
-					"../../Source/SpaceRPG",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Core",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Classes",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/AI",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/AI/Navigation",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Analytics",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Animation",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Audio",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Curves",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/EdGraph",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Internationalization",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Net",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Net/Util",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/PacketHandlers",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Performance",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Physics",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Physics/Experimental",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Physics/ImmediatePhysics",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/ProfilingDebugging",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Rendering",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Slate",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Subsystems",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Tests",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/VT",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/VisualLogger",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Core",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Core/Public",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Core",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Core/Public/Algo",
@@ -1451,32 +1484,6 @@
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/CoreUObject/Public/Serialization/Formatters",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/CoreUObject/Public/Templates",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/CoreUObject/Public/UObject",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Classes",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/AI",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/AI/Navigation",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Analytics",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Animation",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Audio",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Curves",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/EdGraph",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Internationalization",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Net",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Net/Util",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/PacketHandlers",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Performance",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Physics",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Physics/Experimental",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Physics/ImmediatePhysics",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/ProfilingDebugging",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Rendering",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Slate",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Subsystems",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Tests",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/VT",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/VisualLogger",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ApplicationCore",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/ApplicationCore/Public",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/ApplicationCore",
@@ -1908,6 +1915,9 @@
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ClothingSystemRuntimeInterface",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/ClothingSystemRuntimeInterface",
+					"../Build/Mac/UE4Editor/Inc/SpaceRPG",
+					"../../Source",
+					"../../Source/SpaceRPG",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Plugins/2D/Paper2D/Intermediate/Build/Mac/UE4Editor/Inc/Paper2D",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Plugins/2D/Paper2D/Source",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Plugins/2D/Paper2D/Source/Paper2D/Classes",
@@ -1922,7 +1932,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		F753852322699CB1D626D263 /* "Development" */ = {
+		B70DA1448A5FF30C6B213C45 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1972,17 +1982,6 @@
 					"IMPLEMENT_SIGNING_KEY_REGISTRATION()=",
 					"DEPRECATED_FORGAME=DEPRECATED",
 					"UE_DEPRECATED_FORGAME=UE_DEPRECATED",
-					"SPACERPG_VTABLE=DLLEXPORT_VTABLE",
-					"SPACERPG_API=",
-					"UE_ENABLE_ICU=1",
-					"WITH_DIRECTXMATH=0",
-					"WITH_MALLOC_STOMP=1",
-					"CORE_VTABLE=DLLIMPORT_VTABLE",
-					"CORE_API=",
-					"TRACELOG_VTABLE=DLLIMPORT_VTABLE",
-					"TRACELOG_API=",
-					"COREUOBJECT_VTABLE=DLLIMPORT_VTABLE",
-					"COREUOBJECT_API=",
 					"INCLUDE_CHAOS=0",
 					"WITH_PHYSX=1",
 					"WITH_CHAOS=0",
@@ -1999,6 +1998,15 @@
 					"GPUPARTICLE_LOCAL_VF_ONLY=0",
 					"ENGINE_VTABLE=DLLIMPORT_VTABLE",
 					"ENGINE_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_DIRECTXMATH=0",
+					"WITH_MALLOC_STOMP=1",
+					"CORE_VTABLE=DLLIMPORT_VTABLE",
+					"CORE_API=",
+					"TRACELOG_VTABLE=DLLIMPORT_VTABLE",
+					"TRACELOG_API=",
+					"COREUOBJECT_VTABLE=DLLIMPORT_VTABLE",
+					"COREUOBJECT_API=",
 					"APPLICATIONCORE_VTABLE=DLLIMPORT_VTABLE",
 					"APPLICATIONCORE_API=",
 					"RHI_VTABLE=DLLIMPORT_VTABLE",
@@ -2213,6 +2221,8 @@
 					"KISMET_API=",
 					"CLOTHINGSYSTEMRUNTIMEINTERFACE_VTABLE=DLLIMPORT_VTABLE",
 					"CLOTHINGSYSTEMRUNTIMEINTERFACE_API=",
+					"SPACERPG_VTABLE=DLLEXPORT_VTABLE",
+					"SPACERPG_API=",
 					"PAPER2D_VTABLE=DLLIMPORT_VTABLE",
 					"PAPER2D_API=",
 					"__INTELLISENSE__",
@@ -2245,11 +2255,34 @@
 				);
 				USER_HEADER_SEARCH_PATHS = (
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source",
-					"../Build/Mac/UE4Editor/Inc/SpaceRPG",
-					"../../Source",
-					"../../Source/SpaceRPG",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Core",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Classes",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/AI",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/AI/Navigation",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Analytics",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Animation",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Audio",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Curves",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/EdGraph",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Internationalization",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Net",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Net/Util",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/PacketHandlers",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Performance",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Physics",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Physics/Experimental",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Physics/ImmediatePhysics",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/ProfilingDebugging",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Rendering",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Slate",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Subsystems",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Tests",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/VT",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/VisualLogger",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Core",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Core/Public",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Core",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Core/Public/Algo",
@@ -2297,32 +2330,6 @@
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/CoreUObject/Public/Serialization/Formatters",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/CoreUObject/Public/Templates",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/CoreUObject/Public/UObject",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Classes",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/AI",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/AI/Navigation",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Analytics",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Animation",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Audio",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Curves",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/EdGraph",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Internationalization",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Net",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Net/Util",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/PacketHandlers",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Performance",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Physics",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Physics/Experimental",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Physics/ImmediatePhysics",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/ProfilingDebugging",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Rendering",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Slate",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Subsystems",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Tests",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/VT",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/VisualLogger",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ApplicationCore",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/ApplicationCore/Public",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/ApplicationCore",
@@ -2754,6 +2761,9 @@
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ClothingSystemRuntimeInterface",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/ClothingSystemRuntimeInterface",
+					"../Build/Mac/UE4Editor/Inc/SpaceRPG",
+					"../../Source",
+					"../../Source/SpaceRPG",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Plugins/2D/Paper2D/Intermediate/Build/Mac/UE4Editor/Inc/Paper2D",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Plugins/2D/Paper2D/Source",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Plugins/2D/Paper2D/Source/Paper2D/Classes",
@@ -2768,7 +2778,7 @@
 			};
 			name = "Development";
 		};
-		1D71F16A6E7EFAEB549D4E5F /* "Development Editor" */ = {
+		8FFEBF5B8F7777BD093EEC01 /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2818,17 +2828,6 @@
 					"IMPLEMENT_SIGNING_KEY_REGISTRATION()=",
 					"DEPRECATED_FORGAME=DEPRECATED",
 					"UE_DEPRECATED_FORGAME=UE_DEPRECATED",
-					"SPACERPG_VTABLE=DLLEXPORT_VTABLE",
-					"SPACERPG_API=",
-					"UE_ENABLE_ICU=1",
-					"WITH_DIRECTXMATH=0",
-					"WITH_MALLOC_STOMP=1",
-					"CORE_VTABLE=DLLIMPORT_VTABLE",
-					"CORE_API=",
-					"TRACELOG_VTABLE=DLLIMPORT_VTABLE",
-					"TRACELOG_API=",
-					"COREUOBJECT_VTABLE=DLLIMPORT_VTABLE",
-					"COREUOBJECT_API=",
 					"INCLUDE_CHAOS=0",
 					"WITH_PHYSX=1",
 					"WITH_CHAOS=0",
@@ -2845,6 +2844,15 @@
 					"GPUPARTICLE_LOCAL_VF_ONLY=0",
 					"ENGINE_VTABLE=DLLIMPORT_VTABLE",
 					"ENGINE_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_DIRECTXMATH=0",
+					"WITH_MALLOC_STOMP=1",
+					"CORE_VTABLE=DLLIMPORT_VTABLE",
+					"CORE_API=",
+					"TRACELOG_VTABLE=DLLIMPORT_VTABLE",
+					"TRACELOG_API=",
+					"COREUOBJECT_VTABLE=DLLIMPORT_VTABLE",
+					"COREUOBJECT_API=",
 					"APPLICATIONCORE_VTABLE=DLLIMPORT_VTABLE",
 					"APPLICATIONCORE_API=",
 					"RHI_VTABLE=DLLIMPORT_VTABLE",
@@ -3059,6 +3067,8 @@
 					"KISMET_API=",
 					"CLOTHINGSYSTEMRUNTIMEINTERFACE_VTABLE=DLLIMPORT_VTABLE",
 					"CLOTHINGSYSTEMRUNTIMEINTERFACE_API=",
+					"SPACERPG_VTABLE=DLLEXPORT_VTABLE",
+					"SPACERPG_API=",
 					"PAPER2D_VTABLE=DLLIMPORT_VTABLE",
 					"PAPER2D_API=",
 					"__INTELLISENSE__",
@@ -3091,11 +3101,34 @@
 				);
 				USER_HEADER_SEARCH_PATHS = (
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source",
-					"../Build/Mac/UE4Editor/Inc/SpaceRPG",
-					"../../Source",
-					"../../Source/SpaceRPG",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Core",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Classes",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/AI",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/AI/Navigation",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Analytics",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Animation",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Audio",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Curves",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/EdGraph",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Internationalization",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Net",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Net/Util",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/PacketHandlers",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Performance",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Physics",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Physics/Experimental",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Physics/ImmediatePhysics",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/ProfilingDebugging",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Rendering",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Slate",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Subsystems",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Tests",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/VT",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/VisualLogger",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Core",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Core/Public",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Core",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Core/Public/Algo",
@@ -3143,32 +3176,6 @@
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/CoreUObject/Public/Serialization/Formatters",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/CoreUObject/Public/Templates",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/CoreUObject/Public/UObject",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Classes",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/AI",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/AI/Navigation",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Analytics",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Animation",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Audio",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Curves",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/EdGraph",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Internationalization",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Net",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Net/Util",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/PacketHandlers",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Performance",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Physics",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Physics/Experimental",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Physics/ImmediatePhysics",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/ProfilingDebugging",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Rendering",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Slate",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Subsystems",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Tests",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/VT",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/VisualLogger",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ApplicationCore",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/ApplicationCore/Public",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/ApplicationCore",
@@ -3600,6 +3607,9 @@
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ClothingSystemRuntimeInterface",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/ClothingSystemRuntimeInterface",
+					"../Build/Mac/UE4Editor/Inc/SpaceRPG",
+					"../../Source",
+					"../../Source/SpaceRPG",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Plugins/2D/Paper2D/Intermediate/Build/Mac/UE4Editor/Inc/Paper2D",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Plugins/2D/Paper2D/Source",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Plugins/2D/Paper2D/Source/Paper2D/Classes",
@@ -3614,7 +3624,7 @@
 			};
 			name = "Development Editor";
 		};
-		5788557AD532FF43271FB260 /* "Shipping" */ = {
+		0ABA440B963F1705E70F563A /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -3664,17 +3674,6 @@
 					"IMPLEMENT_SIGNING_KEY_REGISTRATION()=",
 					"DEPRECATED_FORGAME=DEPRECATED",
 					"UE_DEPRECATED_FORGAME=UE_DEPRECATED",
-					"SPACERPG_VTABLE=DLLEXPORT_VTABLE",
-					"SPACERPG_API=",
-					"UE_ENABLE_ICU=1",
-					"WITH_DIRECTXMATH=0",
-					"WITH_MALLOC_STOMP=1",
-					"CORE_VTABLE=DLLIMPORT_VTABLE",
-					"CORE_API=",
-					"TRACELOG_VTABLE=DLLIMPORT_VTABLE",
-					"TRACELOG_API=",
-					"COREUOBJECT_VTABLE=DLLIMPORT_VTABLE",
-					"COREUOBJECT_API=",
 					"INCLUDE_CHAOS=0",
 					"WITH_PHYSX=1",
 					"WITH_CHAOS=0",
@@ -3691,6 +3690,15 @@
 					"GPUPARTICLE_LOCAL_VF_ONLY=0",
 					"ENGINE_VTABLE=DLLIMPORT_VTABLE",
 					"ENGINE_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_DIRECTXMATH=0",
+					"WITH_MALLOC_STOMP=1",
+					"CORE_VTABLE=DLLIMPORT_VTABLE",
+					"CORE_API=",
+					"TRACELOG_VTABLE=DLLIMPORT_VTABLE",
+					"TRACELOG_API=",
+					"COREUOBJECT_VTABLE=DLLIMPORT_VTABLE",
+					"COREUOBJECT_API=",
 					"APPLICATIONCORE_VTABLE=DLLIMPORT_VTABLE",
 					"APPLICATIONCORE_API=",
 					"RHI_VTABLE=DLLIMPORT_VTABLE",
@@ -3905,6 +3913,8 @@
 					"KISMET_API=",
 					"CLOTHINGSYSTEMRUNTIMEINTERFACE_VTABLE=DLLIMPORT_VTABLE",
 					"CLOTHINGSYSTEMRUNTIMEINTERFACE_API=",
+					"SPACERPG_VTABLE=DLLEXPORT_VTABLE",
+					"SPACERPG_API=",
 					"PAPER2D_VTABLE=DLLIMPORT_VTABLE",
 					"PAPER2D_API=",
 					"__INTELLISENSE__",
@@ -3937,11 +3947,34 @@
 				);
 				USER_HEADER_SEARCH_PATHS = (
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source",
-					"../Build/Mac/UE4Editor/Inc/SpaceRPG",
-					"../../Source",
-					"../../Source/SpaceRPG",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Core",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Classes",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/AI",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/AI/Navigation",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Analytics",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Animation",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Audio",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Curves",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/EdGraph",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Internationalization",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Net",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Net/Util",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/PacketHandlers",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Performance",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Physics",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Physics/Experimental",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Physics/ImmediatePhysics",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/ProfilingDebugging",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Rendering",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Slate",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Subsystems",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Tests",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/VT",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/VisualLogger",
+					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Core",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Core/Public",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Core",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Core/Public/Algo",
@@ -3989,32 +4022,6 @@
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/CoreUObject/Public/Serialization/Formatters",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/CoreUObject/Public/Templates",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/CoreUObject/Public/UObject",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Classes",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/AI",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/AI/Navigation",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Analytics",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Animation",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Audio",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Curves",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/EdGraph",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Internationalization",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Net",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Net/Util",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/PacketHandlers",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Performance",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Physics",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Physics/Experimental",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Physics/ImmediatePhysics",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/ProfilingDebugging",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Rendering",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Slate",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Subsystems",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/Tests",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/VT",
-					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/Engine/Public/VisualLogger",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ApplicationCore",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/ApplicationCore/Public",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/ApplicationCore",
@@ -4446,6 +4453,9 @@
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ClothingSystemRuntimeInterface",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Source/Runtime/ClothingSystemRuntimeInterface",
+					"../Build/Mac/UE4Editor/Inc/SpaceRPG",
+					"../../Source",
+					"../../Source/SpaceRPG",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Plugins/2D/Paper2D/Intermediate/Build/Mac/UE4Editor/Inc/Paper2D",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Plugins/2D/Paper2D/Source",
 					"/Users/Shared/UnrealEngine/UE_4.23/Engine/Plugins/2D/Paper2D/Source/Paper2D/Classes",
@@ -4460,7 +4470,7 @@
 			};
 			name = "Shipping";
 		};
-		DEF8BC0563F98319A20A2AF0 /* "DebugGame" */ = {
+		C5C72BDCD1982B6E7C08C590 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -4487,7 +4497,7 @@
 			};
 			name = "DebugGame";
 		};
-		879963C4AFFF9FB3F2E24C59 /* "DebugGame Editor" */ = {
+		6FAA598CA451819FF4C757C0 /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -4503,7 +4513,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		84117AB97C119A46960BFEE8 /* "Development" */ = {
+		EC72EAF365654AD25BFA0463 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -4530,7 +4540,7 @@
 			};
 			name = "Development";
 		};
-		8741FAF8497AF124C0DA49D2 /* "Development Editor" */ = {
+		0979363921F91ECCBF8A17B0 /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -4546,7 +4556,7 @@
 			};
 			name = "Development Editor";
 		};
-		DCB561F5A941F36605B40CD7 /* "Shipping" */ = {
+		4E5DB56BE049858B8E5FC57C /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -4573,7 +4583,7 @@
 			};
 			name = "Shipping";
 		};
-		3E13CF977B45FAC5512A05D9 /* "DebugGame" */ = {
+		F753852322699CB1D626D263 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -4586,7 +4596,7 @@
 			};
 			name = "DebugGame";
 		};
-		6036F047F3F5CD7CF5410357 /* "DebugGame Editor" */ = {
+		1D71F16A6E7EFAEB549D4E5F /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -4599,7 +4609,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		D4C3E15AB7DEDC58715F509F /* "Development" */ = {
+		5788557AD532FF43271FB260 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -4612,7 +4622,7 @@
 			};
 			name = "Development";
 		};
-		B70DA1448A5FF30C6B213C45 /* "Development Editor" */ = {
+		04552919079E5DA27C7EEAD7 /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -4625,7 +4635,7 @@
 			};
 			name = "Development Editor";
 		};
-		8FFEBF5B8F7777BD093EEC01 /* "Shipping" */ = {
+		466E24CA3379E6A469F90E4D /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -4638,7 +4648,7 @@
 			};
 			name = "Shipping";
 		};
-		B80A984C295A173522C21D8E /* "DebugGame" */ = {
+		84117AB97C119A46960BFEE8 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -4665,7 +4675,7 @@
 			};
 			name = "DebugGame";
 		};
-		C5C72BDCD1982B6E7C08C590 /* "DebugGame Editor" */ = {
+		8741FAF8497AF124C0DA49D2 /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -4681,7 +4691,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		6FAA598CA451819FF4C757C0 /* "Development" */ = {
+		DCB561F5A941F36605B40CD7 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -4708,7 +4718,7 @@
 			};
 			name = "Development";
 		};
-		EC72EAF365654AD25BFA0463 /* "Development Editor" */ = {
+		73A4B3B0A8F5569DC95FEB2F /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -4724,7 +4734,7 @@
 			};
 			name = "Development Editor";
 		};
-		0979363921F91ECCBF8A17B0 /* "Shipping" */ = {
+		5A510C3D67E5F0644E78624A /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -4754,57 +4764,57 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ED5375BB52B0938400FEBE21 /* Build configuration list for PBXProject "SpaceRPG" */ = {
+		78D83ACCA35731DE09AAC5F0 /* Build configuration list for PBXProject "SpaceRPG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				78D83ACCA35731DE09AAC5F0 /* "DebugGame" */,
-				94237F339A74596DAE498E8F /* "DebugGame Editor" */,
-				F753852322699CB1D626D263 /* "Development" */,
-				1D71F16A6E7EFAEB549D4E5F /* "Development Editor" */,
-				5788557AD532FF43271FB260 /* "Shipping" */,
+				6036F047F3F5CD7CF5410357 /* "DebugGame" */,
+				D4C3E15AB7DEDC58715F509F /* "DebugGame Editor" */,
+				B70DA1448A5FF30C6B213C45 /* "Development" */,
+				8FFEBF5B8F7777BD093EEC01 /* "Development Editor" */,
+				0ABA440B963F1705E70F563A /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		390397C21FEE82C3EF6E229B /* Build configuration list for PBXLegacyTarget "SpaceRPG_Build" */ = {
+		8231D1AAD004766EF83A3428 /* Build configuration list for PBXLegacyTarget "SpaceRPG_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E13CF977B45FAC5512A05D9 /* "DebugGame" */,
-				6036F047F3F5CD7CF5410357 /* "DebugGame Editor" */,
-				D4C3E15AB7DEDC58715F509F /* "Development" */,
-				B70DA1448A5FF30C6B213C45 /* "Development Editor" */,
-				8FFEBF5B8F7777BD093EEC01 /* "Shipping" */,
+				F753852322699CB1D626D263 /* "DebugGame" */,
+				1D71F16A6E7EFAEB549D4E5F /* "DebugGame Editor" */,
+				5788557AD532FF43271FB260 /* "Development" */,
+				04552919079E5DA27C7EEAD7 /* "Development Editor" */,
+				466E24CA3379E6A469F90E4D /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		6131786C2DC37277F5A38953 /* Build configuration list for PBXNativeTarget "SpaceRPG" */ = {
+		7F34C103C1487858D5B50299 /* Build configuration list for PBXNativeTarget "SpaceRPG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DEF8BC0563F98319A20A2AF0 /* "DebugGame" */,
-				879963C4AFFF9FB3F2E24C59 /* "DebugGame Editor" */,
-				84117AB97C119A46960BFEE8 /* "Development" */,
-				8741FAF8497AF124C0DA49D2 /* "Development Editor" */,
-				DCB561F5A941F36605B40CD7 /* "Shipping" */,
+				C5C72BDCD1982B6E7C08C590 /* "DebugGame" */,
+				6FAA598CA451819FF4C757C0 /* "DebugGame Editor" */,
+				EC72EAF365654AD25BFA0463 /* "Development" */,
+				0979363921F91ECCBF8A17B0 /* "Development Editor" */,
+				4E5DB56BE049858B8E5FC57C /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		03FED0217CEB977EB96C750F /* Build configuration list for PBXNativeTarget "SpaceRPG_Index" */ = {
+		E4E0267EB2F2D73BA45B3920 /* Build configuration list for PBXNativeTarget "SpaceRPG_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B80A984C295A173522C21D8E /* "DebugGame" */,
-				C5C72BDCD1982B6E7C08C590 /* "DebugGame Editor" */,
-				6FAA598CA451819FF4C757C0 /* "Development" */,
-				EC72EAF365654AD25BFA0463 /* "Development Editor" */,
-				0979363921F91ECCBF8A17B0 /* "Shipping" */,
+				84117AB97C119A46960BFEE8 /* "DebugGame" */,
+				8741FAF8497AF124C0DA49D2 /* "DebugGame Editor" */,
+				DCB561F5A941F36605B40CD7 /* "Development" */,
+				73A4B3B0A8F5569DC95FEB2F /* "Development Editor" */,
+				5A510C3D67E5F0644E78624A /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 /* Begin PBXShellScriptBuildPhase section */
-		DFE8B3FB875028E32C1E8EFB /* Sign Frameworks */ = {
+		879963C4AFFF9FB3F2E24C59 /* Sign Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -4820,5 +4830,5 @@
 		};
 /* End PBXShellScriptBuildPhase section */
 	};
-	rootObject = 54A7C546872BE4FD22940595 /* Project object */;
+	rootObject = DFE8B3FB875028E32C1E8EFB /* Project object */;
 }

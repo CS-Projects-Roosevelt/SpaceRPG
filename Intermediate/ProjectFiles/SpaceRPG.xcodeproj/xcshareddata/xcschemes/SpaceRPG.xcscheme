@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "88BF5D85E576B18ED9AD8347"
+               BlueprintIdentifier = "390397C21FEE82C3EF6E229B"
                BuildableName = "SpaceRPG.app"
                BlueprintName = "SpaceRPG"
                ReferencedContainer = "container:SpaceRPG.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "88BF5D85E576B18ED9AD8347"
+               BlueprintIdentifier = "390397C21FEE82C3EF6E229B"
                BuildableName = "SpaceRPG.app"
                BlueprintName = "SpaceRPG"
                ReferencedContainer = "container:SpaceRPG.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "88BF5D85E576B18ED9AD8347"
+               BlueprintIdentifier = "390397C21FEE82C3EF6E229B"
                BuildableName = "SpaceRPG.app"
                BlueprintName = "SpaceRPG"
                ReferencedContainer = "container:SpaceRPG.xcodeproj">
@@ -70,8 +70,7 @@
             argument = "-RunConfig=$(Configuration)"
             isEnabled = "YES">
          </CommandLineArgument>
-      </CommandLineArguments>
-      <AdditionalOptions>
+      </CommandLineArguments>      <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
@@ -84,7 +83,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "88BF5D85E576B18ED9AD8347"
+               BlueprintIdentifier = "390397C21FEE82C3EF6E229B"
                BuildableName = "SpaceRPG.app"
                BlueprintName = "SpaceRPG"
                ReferencedContainer = "container:SpaceRPG.xcodeproj">
